@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HandleCounter } from './components/handleCounter';
 import {DoubleCounter} from './components/doubleCounter'
 import { CounterContextProvider } from './contexts/CounterContext';

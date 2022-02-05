@@ -2,12 +2,7 @@ import { useContext } from "react"
 import { CounterContext } from "../contexts/CounterContext"
 
 export function HandleCounter() {
-
-    const {counter, setCounter} = useContext(CounterContext)
-
-    function increaseCounter() {
-        setCounter(counter + 1)
-    }
+    const {counter, increaseCounter} = useContext(CounterContext)
 
     return (
         <div>
